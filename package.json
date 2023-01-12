@@ -1,7 +1,7 @@
 {
   "name": "extra_learning",
   "version": "1.0.0",
-  "description": "Sending_mails_using_node.js",
+  "description": "consoling message without express",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,10 +15,5 @@
   "bugs": {
     "url": "https://github.com/Abhiii00/Extra_learning/issues"
   },
-  "homepage": "https://github.com/Abhiii00/Extra_learning#readme",
-  "dependencies": {
-    "express": "^4.18.2",
-    "mailgen": "^2.0.27",
-    "nodemailer": "^6.8.0"
-  }
+  "homepage": "https://github.com/Abhiii00/Extra_learning#readme"
 }

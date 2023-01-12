@@ -1,10 +1,10 @@
-const express = require('express')
-const route = require('./routes/route.js')
-const app = express()
+const http = require('http')
 
+let server = http.createServer(function(req,res){
+    res.write("hey")
+    res.end()
+})
 
-app.use('/',route)
-
-app.listen(3000,function(){
-    console.log('Express app running on port 3000')
+server.listen(3000, function(){
+    console.log("server running on port 3000")
 })
